@@ -11,7 +11,7 @@
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Algebrain</name>
-  <url>https://github.com/dedoussis/algebrain</url>
+  <url>https://github.com/hariprasathcse/algebrain</url>
   <description>Computer Algebra System focusing on symbolic transformations</description>
   <dependencies>
     <dependency>
