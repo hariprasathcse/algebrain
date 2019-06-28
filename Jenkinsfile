@@ -6,8 +6,10 @@ pipeline{
 		stage('Test Param'){
 			steps{
 				script{
-					println "${params.env}"
-					echo "$job"	
+					callfunc {
+						env_var = "${params.env}"
+						job_name = "$job"
+					}	
 					
 					
 				}
