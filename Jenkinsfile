@@ -7,6 +7,7 @@ pipeline{
 		stage('Test Param'){
 			steps{
 				script{
+					println $env
 					
 					
 				}
