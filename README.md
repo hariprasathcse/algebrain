@@ -1,8 +1,8 @@
-# Algebrain
+	# Algebrain
 
 Algebrain is a general purposed Computer Algebra System, that allows numerical evaluation and symbolic transofrmation of algebraic expressions. By exploiting the concept of rewriting rules, Algebrain enables the use of custom transformations, that can be entirely developed and compiled within its environment.  
 
-## Getting Started
+	## Getting Started
 
 ### Prerequisites
 
