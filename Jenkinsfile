@@ -1,5 +1,5 @@
 def env = "$env"
-def job=JOB_BASE_NAME-
+def job=JOB_BASE_NAME
 
 pipeline{
 	agent none
@@ -7,8 +7,8 @@ pipeline{
 		stage('Test Param'){
 			steps{
 				script{
-					println "${env}"
-					println "${job}"
+					
+					
 				}
 			}
 		}
