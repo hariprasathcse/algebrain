@@ -7,6 +7,7 @@ pipeline{
 			steps{
 				script{
 					println "${params.env}"
+					echo "$job"	
 					
 					
 				}
