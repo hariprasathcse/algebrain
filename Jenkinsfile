@@ -7,8 +7,8 @@ pipeline{
 		stage('Test Param'){
 			steps{
 				script{
-					echo "${env}"
-					echo "${job}"
+					println "${env}"
+					println "${job}"
 				}
 			}
 		}
