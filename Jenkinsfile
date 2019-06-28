@@ -1,4 +1,3 @@
-def env = "$env"
 def job=JOB_BASE_NAME
 
 pipeline{
@@ -7,7 +6,7 @@ pipeline{
 		stage('Test Param'){
 			steps{
 				script{
-					println "$env"
+					println "${params.env}"
 					
 					
 				}
