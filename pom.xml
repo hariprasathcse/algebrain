@@ -52,4 +52,10 @@
    </plugin>
    </plugins>
   </build>
+  <distributionManagement>
+	  <repository>
+		  <id>testbttvmavenrepo</id>
+		  <url>http://nexus.docker.com:9095/repository/testbttvmavenrepo/</url>
+	  </repository>
+ </distributionManagement>	  
 </project>
