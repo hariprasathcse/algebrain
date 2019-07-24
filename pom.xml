@@ -9,7 +9,7 @@
   <groupId>common</groupId>
   <artifactId>algebrain</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>Algebrain</name>
   <url>https://github.com/hariprasathcse/algebrain</url>
   <description>Computer Algebra System focusing on symbolic transformations</description>
